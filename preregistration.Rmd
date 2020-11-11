@@ -23,8 +23,7 @@ output: prereg::vantveer_prereg
 ## Predictions
 <!-- Describe the (numbered) hypotheses in terms of directional relationships between your (manipulated or measured) variables. For interaction effects, describe the expected shape of the interactions. If you are manipulating a variable, make predictions for successful check variables or explain why no manipulation check is included. -->
 
-Enter your response here.
-
+I'm going to calculate a mean, and make a plot.
 
 ## Rationale (optional)
 <!-- A figure or table may be helpful to describe complex interactions; this facilitates correct specification of the ordering of all group means. For original research, add rationales or theoretical frameworks for why a certain hypothesis is tested. If multiple predictions can be made for the same IV-DV combination, describe what outcome would be predicted by which theory. -->
