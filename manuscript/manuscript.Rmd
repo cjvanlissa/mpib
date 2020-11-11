@@ -55,7 +55,7 @@ draft             : no
 documentclass     : "apa6"
 classoption       : "man"
 output            : papaja::apa6_pdf
-knit              : worcs::cite_all
+knit              : worcs::cite_essential
 ---
 
 ```{r setup, include = FALSE}
@@ -65,7 +65,7 @@ library("worcs")
 # and end that file with either open_data(yourdata), or closed_data(yourdata).
 # Then, uncomment the line below to load the original or synthetic data
 # (whichever is available), to allow anyone to reproduce your code:
-# load_data()
+load_data()
 ```
 
 This manuscript uses the Workflow for Open Reproducible Code in Science [@vanlissaWORCSWorkflowOpen2020] to ensure reproducibility and transparency. All code <!--and data--> are available at <https://github.com/cjvanlissa/mpib.git>.
@@ -95,6 +95,19 @@ We used `r cite_r("r-references.bib")` for all our analyses.
 
 
 # Results
+
+```{r}
+my_mean <- mean(penguins$bill_length_mm, na.rm = TRUE)
+```
+
+The mean of penguins' bill length was `r my_mean`.
+
+Figure \@ref(fig:figbill) shows a scatterplot.
+
+```{r figbill, fig.cap="Scatterplot of bill length and depth"}
+plot(penguins$bill_length_mm, penguins$bill_depth_mm)
+```
+
 
 # Discussion
 
