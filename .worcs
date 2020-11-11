@@ -1,0 +1,10 @@
+worcs_version: 0.1.6.2
+creator: Lissa102
+entry_point: manuscript/manuscript.Rmd
+checksums:
+  penguins.csv: 5f246079b4925e5ceda642063a9a9dab
+  synthetic_penguins.csv: 328e25cc9bd38237cf21a20b48e40043
+data:
+  penguins.csv:
+    codebook: codebook_penguins.Rmd
+    synthetic: synthetic_penguins.csv
